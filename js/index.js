@@ -3,6 +3,8 @@ var acc = document.getElementsByClassName("accordion");
 var i;
 ScrollReveal().reveal('.name', {delay: 100});
 ScrollReveal().reveal('.occupation', { delay: 700 });
+ScrollReveal().reveal('h5', {delay: 300});
+ScrollReveal().reveal('h6', {delay: 500});
 ScrollReveal().reveal('.scrollReveal');
 for (i = 0; i < acc.length; i++) {
   var panel = acc[i].nextElementSibling;
