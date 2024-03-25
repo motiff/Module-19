@@ -106,6 +106,10 @@ a:hover {
 a:visited{
   color:black;
 }
+.contact{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 footer{
   font-size: 16px;
   color:gray;

@@ -25,15 +25,55 @@ for (i = 0; i < acc.length; i++) {
     }
   }
 }
+
+$.fn.isInViewport = function() {
+  var elementTop = $(this).offset().top;
+  var elementBottom = elementTop + $(this).outerHeight();
+  var viewportTop = $(window).scrollTop();
+  var viewportBottom = viewportTop + $(window).height();
+  return elementBottom > viewportTop && elementTop < viewportBottom;
+};
+
 window.addEventListener("scroll", function() {
-    var elementTarget = document.getElementById("header");
-    if (window.scrollY > (elementTarget.offsetTop + elementTarget.offsetHeight)) {
+  var header = document.getElementById("header");
+    if (window.scrollY > (header.offsetTop + header.offsetHeight)) {
         $("#portrait").css("opacity", "50%");
     }
     else {
         $("#portrait").css("opacity", "100%");
     }
+
+  var about = document.getElementById("About Me");
+  var skills = document.getElementById("Skills");
+  var work = document.getElementById("Work");
+
+  if ((window.scrollY > (about.offsetTop - about.offsetHeight)) && (window.scrollY < (skills.offsetTop - skills.offsetHeight))) {
+      $("#aboutMenu").css("text-decoration", "underline");
+  }
+  else {
+      $("#aboutMenu").css("text-decoration", "none");
+  }
+  if ((window.scrollY > (skills.offsetTop - skills.offsetHeight)) && (window.scrollY < (work.offsetTop - work.offsetHeight))) {
+    $("#skillsMenu").css("text-decoration", "underline");
+  }
+  else {
+    $("#skillsMenu").css("text-decoration", "none");
+  }
+  if ((window.scrollY > (work.offsetTop - work.offsetHeight)) && (!($("#footer").isInViewport()))) {
+    $("#workMenu").css("text-decoration", "underline");
+  }
+  else {
+    $("#workMenu").css("text-decoration", "none");
+  }
+  if ($("#footer").isInViewport()) {
+    $("#contactMenu").css("text-decoration", "underline");
+  }
+  else {
+    $("#contactMenu").css("text-decoration", "none");
+  }
   });
+
+
 
 //attempts
 // var acc = document.getElementsByClassName("accordion");
