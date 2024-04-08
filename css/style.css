@@ -202,6 +202,7 @@ footer{
     align-items: baseline;
     margin-top: 50px;
     margin-bottom: 50px;
+    height: fit-content;
   }
   /* .workImageContainer{
     height: fit-content;
@@ -212,10 +213,17 @@ footer{
   #workImage{
     height: fit-content;
     width: inherit;
-    object-fit: contain;
+    object-fit: cover;
     filter: grayscale(100%) brightness(125%);
     opacity: 0.5;
     transition: filter 0.5s ease-out, opacity 0.5s ease-out;
+  }
+  .filter{
+    height: fit-content;
+    width: inherit;
+    object-fit: cover;
+    background: #6e64ff;
+    transition: filter 0.5s ease-out;
   }
   #workImage:hover {
     opacity: 1; 
