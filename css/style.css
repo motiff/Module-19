@@ -51,6 +51,7 @@ body{
   padding: 20px;
 }
 
+
 .active, .accordion:hover {
   background-color: #e7e7e7;
 }
@@ -95,6 +96,10 @@ div {
 p{
   font-size: 24px;
 }
+/* .projectLink{
+  height: fit-content;
+  width: fit-content;
+} */
 a:link{
   color:black;
   text-decoration: none;
@@ -105,6 +110,9 @@ a:hover {
 }
 a:visited{
   color:black;
+}
+.workTitle:hover{
+  text-decoration: underline;
 }
 .contact{
   margin-top: 50px;
@@ -212,8 +220,8 @@ footer{
   } */
   #workImage{
     height: fit-content;
-    width: inherit;
-    object-fit: cover;
+    width: 100%;
+    object-fit: fill;
     filter: grayscale(100%) brightness(125%);
     opacity: 0.5;
     transition: filter 0.5s ease-out, opacity 0.5s ease-out;

@@ -26,6 +26,21 @@ for (i = 0; i < acc.length; i++) {
   }
 }
 
+
+// $(".project").hover(
+//   function showProject() {
+//     $(this).find("#workImage").trigger("hover");
+//     $(this).find(".projectLink").trigger("hover");
+//     $(this).find(".filter").trigger("hover");
+//     $(this).find(".workTitle").trigger("hover");
+//     console.log("hover triggered");
+//   }
+// );
+// $(".workTitle").hover(
+  
+// );  
+
+
 $.fn.isInViewport = function() {
   var elementTop = $(this).offset().top;
   var elementBottom = elementTop + $(this).outerHeight();
