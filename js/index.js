@@ -27,18 +27,18 @@ for (i = 0; i < acc.length; i++) {
 }
 
 
-// $(".project").hover(
-//   function showProject() {
-//     $(this).find("#workImage").trigger("hover");
-//     $(this).find(".projectLink").trigger("hover");
-//     $(this).find(".filter").trigger("hover");
-//     $(this).find(".workTitle").trigger("hover");
-//     console.log("hover triggered");
-//   }
-// );
-// $(".workTitle").hover(
+$(".project").hover(
+  function showProject() {
+    $(this).find("#workImage").trigger("hover");
+    $(this).find(".projectLink").trigger("hover");
+    $(this).find(".filter").trigger("hover");
+    $(this).find(".workTitle").trigger("hover");
+    console.log("hover triggered");
+  }
+);
+$(".workTitle").hover(
   
-// );  
+);  
 
 
 $.fn.isInViewport = function() {
@@ -87,53 +87,3 @@ window.addEventListener("scroll", function() {
     $("#contactMenu").css("text-decoration", "none");
   }
   });
-
-
-
-//attempts
-// var acc = document.getElementsByClassName("accordion");
-// var i;
-
-// for (i = 0; i < acc.length; i++) {
-//     var panel = this.nextElementSibling;
-//     panel.style.maxHeight = panel.scrollHeight + "px";
-//   acc[i].addEventListener("click", function() {
-//     this.classList.toggle("active");
-//     if (panel.style.display === "none") {
-//       panel.style.display = "block";
-//     } else {
-//       panel.style.display = "none";
-//     }
-
-//     if($(this).find(".plus_minus").text() == "-"){
-//         $(this).find(".plus_minus").text("+");
-//     }
-//     else{
-//         $(this).find(".plus_minus").text("-");
-//     }
-//   });
-// }
-
-// $(".toggle").click(function(){
-//     console.log("toggle clicked.");
-//     $(this).find(".workToggle").toggleClass("inactive");
-//     if($(this).find(".workToggle").hasClass("inactive")){
-//         $(this).find(".plus_minus").text("+");
-//     }
-//     else{
-//         $(this).find(".plus_minus").text("-");
-//     }
-//     $(this).siblings(".toggle").find(".workToggle").removeClass("inactive");
-//   });
-   
-// $(".toggle").click(function(){
-//     console.log("toggle clicked.");
-//     $(".workToggle").slideToggle();
-//     if($(this).find(".plus_minus").text() == "-"){
-//         $(this).find(".plus_minus").text("+");
-//     }
-//     else{
-//         $(this).find(".plus_minus").text("-");
-//     }
-    
-// });

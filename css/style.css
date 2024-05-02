@@ -96,10 +96,7 @@ div {
 p{
   font-size: 24px;
 }
-/* .projectLink{
-  height: fit-content;
-  width: fit-content;
-} */
+
 a:link{
   color:black;
   text-decoration: none;
@@ -341,6 +338,11 @@ footer{
     height: fit-content;
     object-fit: fill;
   }
+  /* .filter{
+    height: fit-content;
+    width: inherit;
+    object-fit: cover;
+  } */
 
 }
 /* mobile */
