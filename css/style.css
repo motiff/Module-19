@@ -308,6 +308,7 @@ footer{
     padding: 5px;
     position: fixed;
     overflow: hidden;
+    z-index: 7;
   }
   ul.navigationMenu{
     display: flex;
@@ -348,6 +349,13 @@ footer{
     width: 100%;
     height: fit-content;
     object-fit: fill;
+  }
+  #wipworkImage{
+    width: 100%;
+    height: fit-content;
+    object-fit: fill;
+    filter: grayscale(100%) brightness(125%);
+    opacity: 0.5;
   }
   /* .filter{
     height: fit-content;
@@ -408,6 +416,7 @@ footer{
     padding: 5px;
     position: fixed;
     overflow: hidden;
+    z-index: 7;
   }
   ul.navigationMenu{
     display: flex;
@@ -430,6 +439,13 @@ footer{
     width: 100%;
     height: fit-content;
     object-fit: fill;
+  }
+  #wipworkImage{
+    width: 100%;
+    height: fit-content;
+    object-fit: fill;
+    filter: grayscale(100%) brightness(125%);
+    opacity: 0.5;
   }
 }
 

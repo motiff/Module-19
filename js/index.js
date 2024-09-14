@@ -36,9 +36,9 @@ $(".project").hover(
     console.log("hover triggered");
   }
 );
-$(".workTitle").hover(
-  
-);  
+// $(".workTitle").hover(
+//   showProject()
+// );  
 
 
 $.fn.isInViewport = function() {
