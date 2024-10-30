@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Add Bootstrap CSS Here on line 10-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- This is REQUIRED for bootstrap to work correctly -->
+
+  <!-- This stylesheet is an example of how you can add your own stylesheet to customize bootstrap components. Notice how it is loaded 2nd to the required bootstrap stylesheet. This is so our stylesheet will overwrite bootstrap classes when we apply the same class but different styles to the stylsheet -->
+  <link rel="stylesheet" href="../cuesine/scripts/cuesine.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+  <title>Case Study - Cuesine</title>
+</head>
+
+<body>
+  <!-- jumbotron -->
+  <div class="fill p-5 mb-4" id="jumbotron">
+    <div class="container-fluid py-5">
+      <h1 class="display-2 fw-bold text-end title">Cuesine</h1>
+      <h2 class="display-8 fw-bold text-end subtitle">A meal planning app</h2>
+      <!-- <button class="btn btn-primary btn-lg" type="button">Example button</button> -->
+    </div>
+  </div>
+  <div class="container-fluid py-4">
+    <div class="row introSection">
+      <div class="container-sm col-2">
+        <h6>My Team</h6>
+        Payam Olfat<br>
+        Kassandra Johnson<br>
+        Yuganshi Dhingra<br>
+      </div>
+      <div class="container-sm col-2">
+        <h6>My Role</h6>
+        User Research<br>
+        User Research Synthesis<br>
+        UI/UX Prototyping<br>
+        UI/UX Prototype Testing<br>
+      </div>
+      <div class="container-sm col-2">
+        <h6>Timeline</h6>
+        November 10, 2023 -<br>
+        November 28, 2023<br>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- sidebar scrollspy -->
+  <div class="container-fluid px-3">
+    <div class="row">
+      <div class="col-2 sidecol">
+        <nav id="navbar-example3 sidebar" class="sticky-toph-100 flex-column align-items-stretch pe-4 border-end sidebar sticky-top">
+          <nav class="nav nav-pills flex-column groupnav">
+            <a class="nav-link main-ul" href="#item-1">About</a>
+            <nav class="nav nav-pills flex-column subgroup-ul">
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-1-1">The Problem</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-1-2">The Goal</a>
+            </nav>
+          </nav>
+          <nav class="nav nav-pills flex-column groupnav">
+            <a class="nav-link main-ul" href="#item-2">User Research</a>
+            <nav class="nav nav-pills flex-column subgroup-ul">
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-2-1">Proto-Persona</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-2-2">User Survey</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-2-3">User Interviews</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-2-4">Empathy Map</a>
+            </nav>
+          </nav>
+          <nav class="nav nav-pills flex-column groupnav">
+            <a class="nav-link main-ul" href="#item-3">Definition & Ideation</a>
+            <nav class="nav nav-pills flex-column subgroup-ul">
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-3-1">Competitor Analysis</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-3-2">Feature Definition and Prioritization</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-3-3">User Storyboard</a>
+            </nav>
+          </nav>
+          <nav class="nav nav-pills flex-column groupnav">
+            <a class="nav-link main-ul" href="#item-4">Testing & Iterating</a>
+            <nav class="nav nav-pills flex-column subgroup-ul">
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-4-1">User Flow</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-4-2">Sketches</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-4-3">Digital Wireframes</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-4-4">Lo-fi Prototype</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-4-5">Usability Testing and Iterations</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-4-6">Mid-Fi Prototype</a>
+            </nav>
+          </nav>
+          <nav class="nav nav-pills flex-column groupnav">
+            <a class="nav-link main-ul" href="#item-5">Hi-Fi Prototyping</a>
+            <nav class="nav nav-pills flex-column subgroup-ul">
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-5-1">Hi-Fi Mockup</a>
+            </nav>
+          </nav>
+          <nav class="nav nav-pills flex-column groupnav">
+            <a class="nav-link" href="#item-6">Conclusion</a>
+          </nav>
+        </nav>
+      </div>
+      <div class="col-1"></div>
+      <div class="col-8 col-offset-3">
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="false"
+          class="scrollspy-example" tabindex="0">
+            <section id = "section-1">
+              <div id="item-1">
+              <h4>About</h4>
+              <p>For my first group project in UI/UX, our job was to research, prototype, test, and validate an idea for a brand-new mobile application. Our apps must solve a real, clearly identified need in users’ everyday lives.
+                Out of many ideas our group generated for a mobile app, we all identified with the need to decide what to eat everyday.
+              </p>
+            </div>
+            <div id="item-1-1">
+              <h5>The Problem</h5>
+                <p>Busy people face the everyday issue of deciding what to eat. Due to time constraints and the difficulty of keeping track of ingredients, they eat out too much instead of cooking.
+                </p>
+                <h3>"How might we make cooking easier and help users save time and money, and improve their nutrition?"</h3>
+            </div>
+            <div id="item-1-2">
+              <h5>The Goal</h5>
+              <p>Design a mobile app that addresses these issues through making cooking as easy as possible. Users would be empowered by our mobile app being able to:<br>
+                <ul>
+                  <li>
+                    Quickly and easily add the ingredients they have to a digital pantry, which helps them keep track of the ingredients they have.
+                  </li>
+                  <li>
+                    Discover recipes they can cook based on their preferences and time constraints, providing them with clear information of the ingredients they can use or need.
+                  </li>
+                  <li>
+                    Plan their meals throughout the week, saving time that would have been used making decisions in the moment.
+                  </li>
+                </ul>
+              </p>
+            </div>
+            </section>
+            <section id="section-2" class="mt-5">
+              <div id="item-2">
+              <h4>User Research</h4>
+              <p>
+                Before we started user research proper, we first designed a proto-persona describing our target user.
+              </p>
+              <div id="item-2-1">
+                <h5>Proto-Persona</h5>
+                <p>Since we first identified the struggles amongst ourselves, we designed a proto-persona not unlike ourselves: a more introverted person that cooks for themselves, but doesn't have much time and money which makes them struggle to cook more often. <br><br>
+                  <a href="../cuesine/assets/images/protopersona.png" data-toggle="lightbox"><img src="../cuesine/assets/images/protopersona.png" class="img-fluid border rounded slideimage"></a>
+                </p>
+              </div>
+              
+              <div id="item-2-2">
+                <h5>User Survey</h5>
+                <p>We conducted a user survey with 29 respondents. We first asked questions that compared eating out and cooking (budget, time, etc), since the initial idea of "helping people decide what to eat" could encompass a variety of different kinds of possible applications.<br> 
+                  We found that the majority of users struggled with time constraints when deciding what to eat. Being able to find quick and easy recipes was also the most requested feature that would motivate users to cook more often.
+                  These two insights inspired us to focus on making cooking as easy as possible.</p>
+                <img src ="../cuesine/assets/images/survey.png" class="figure-image img-fluid border rounded slideimage"><br>
+              </div>
+              <div id="item-2-3">
+                <h5>User Interviews</h5>
+                <p>We conducted five one-on-one user interviews.
+                  Like the survey, we wanted an idea of their habits, budget, and time spent regarding what they eat on a day-to-day basis. 
+                  We wanted to identify the considerations made and possible pain points in how people plan their meals.</p>
+                <p>We gathered all the insights we gained from our survey and interviews and arranged them into an affinity diagram, showing the common trends between them.</p>
+                <a href="../cuesine/assets/images/userinterviewinsights.jpg" data-toggle="lightbox"><img src="../cuesine/assets/images/userinterviewinsights.jpg" class="figure-image img-fluid border rounded slideimage"></a><br>
+                <a href="../cuesine/assets/images/affinitydiagram.jpg" data-toggle="lightbox"><img src ="../cuesine/assets/images/affinitydiagram.jpg" class="figure-image img-fluid border rounded slideimage"></a><br>
+                <p> Our main takeaways:
+                  <ul>
+                    <li>Users have limited time for meal planning and cooking.</li>
+                    <li>Users struggle with deciding what to eat, not having the energy to cook, not knowing what to buy, and food waste.</li>
+                    <li>Users would like to spend less on food, eat healthier, and create more consistent habits with meal planning and cooking.</li>
+                  </ul>
+                </p>
+                <br>
+                
+                <blockquote class="blockquote text-center">
+                  <p class="mb-0">“Okay, I'm hungry. What am I going to eat this morning? And, once you figure that out, you're like, okay, great, I figured it out. And then a few hours later, you're hungry again.”</p>
+                  <footer class="blockquote-footer">D., 25</footer>
+                </blockquote>
+                <blockquote class="blockquote text-center">
+                  <p class="mb-0">“It's a constant struggle to balance healthy choices with a hectic schedule. I'm open to any solutions that can make this aspect of life easier and more enjoyable.”</p>
+                  <footer class="blockquote-footer">P., 31</footer>
+                </blockquote>
+              </div>
+              <div id="item-2-4">
+                <h5>Empathy Map</h5>
+                <p>We then created an empathy map that synthesized what we learned from our user research. It summarizes what our users say, think, feel, and do, their pains (obstacles, frustrations) and gains (motivations, potential successes).</p>
+                <a href="../cuesine/assets/images/empathymap.jpg" data-toggle="lightbox"><img src ="../cuesine/assets/images/empathymap.jpg" class="figure-image img-fluid border rounded slideimage"></a><br>
+              </div>
+            </section>
+          <section id="section-3" class="mt-5">
+            <div id="item-3">
+              <h4>Definition & Ideation</h4>
+              <p>With an idea of what users need, we started to explore the possible features our app needed to address them.</p>
+            </div>
+            <div id="item-3-1">
+              <h5>Competitor Analysis</h5>
+              <p>Our direct competitors were similar meal planning mobile apps: <a href="
+                https://www.mealime.com/">Mealime</a>, <a href="https://apps.apple.com/us/app/yummly-recipes-meal-planning/id589625334">Yummly</a> and <a href="https://www.eatthismuch.com/">Eat This Much</a>. Our indirect competitors included <a href="
+                https://recipekeeperonline.com/">Recipe Keeper</a> and <a href="https://www.factor75.com/about/app">Factor</a>. Recipe Keeper is a personal recipe organization tool, and Factor is a meal delivery service app.</p>
+                <a href="../cuesine/assets/images/comp.png" data-toggle="lightbox"><img src="../cuesine/assets/images/comp.png" class="figure-image img-fluid border rounded slideimage"></a><br>
+                <p>We appreciated Yummly and Mealime's visually appealing interfaces.
+                  However, we noticed Mealime lacked a proper filter system to suit the users' preferences for recipes, only allowing for one filter selected at a time. It is also much harder to use Mealime's Grocery screen as a Pantry list than a shopping list. 
+                  The general flow of Mealime is to select the dishes first, then buy the ingredients, while people looking for a recipe working from ingredients they need to use will have a much harder time searching.<br>
+                  While we took inspiration from Yummly for the specific filter categories users would need when searching for recipes, we also noticed that Yummly did not have a place where ingredients on hand could be stored and remembered (i.e. a "Digital Pantry," "Groceries" screen) like Mealime does.
+                  We desired this feature to meet the users' needs of reducing food waste, and not knowing what to buy based on what they had on hand.<br>
+                  We recognized the need for a comprehensive solution to our users' needs that involved synthesizing the strengths of these apps.
+                </p>
+            </div>
+            <div id="item-3-2">
+              <h5>Feature Definition and Prioritization</h5>
+              <p>We began to vote on, define, and organize ideas for features based on their feasibility and originality.</p>
+              <a href="../cuesine/assets/images/ilike.jpg" data-toggle="lightbox"><img src="../cuesine/assets/images/ilike.jpg" class="figure-image img-fluid border rounded slideimage"></a> <br>
+              <a href="../cuesine/assets/images/featurematrix.jpg" data-toggle="lightbox"><img src="../cuesine/assets/images/featurematrix.jpg" class="figure-image img-fluid border rounded slideimage"></a> <br>
+                <p>We prioritized the features that were both feasible and necessary to fulfill the users needs, while also making note of more original ideas that would
+                  be nice to have.
+                </p>
+                <ul>
+                  <li><b>Our key features in the “Now” portion: </b>filtering and searching for recipes, keeping track of ingredients, creating a meal plan</li>
+                  <li><b>Additional ideas near the “Wow!” section:</b> filtering recipes by cooking method, bookmarking recipes for later</li>
+                  <li><b>Interesting “How?” ideas for the future:</b> receipt scanning, AR ingredient scanning, AI-generated meal plans</li>
+                </ul>
+                <br>
+
+            </div>
+            <div id="item-3-3">
+              <h5>User Storyboard</h5>
+              <img src="../cuesine/assets/images/storyboard.png" class="figure-image img-fluid border rounded slideimage"><br>
+              <p>We created a story of our user persona, Katie, who faces the problem of feeling hungry and needing to feed herself and her children dinner.<br>
+                As a busy mom, she does not have a lot of time on her hands, and she is struggling to come up with something quick and easy to cook.<br>
+                She thinks that it might be easier to just order food, but she thinks that ordering food might be too expensive, and the cheaper options tend to be unhealthy.<br>
+                Checking her fridge for ideas, she remembers she has a lot of groceries she needs to user before they go bad, but she doesn't know what she could make from them.<br>
+                But then she finds our cooking app! She enters in the ingredients she needs to use and the app finds a recipe that uses them. She can also filter the recipes
+                by the time needed, the cooking methods required, and any preferences and restrictions her and her children have.<br>
+                Thanks to our app, she finds a great recipe that is quick, easy, to her and her childrens' liking, and all cheaper, healthier, and less wasteful than eating out.<br>
+              </p>
+            </div>
+          </section>
+
+          <section id="section-4" class="mt-5">
+            <div id="item-4">
+              <h4>Testing & Iterating</h4>
+              <p>With our plans for features, we then began to visualize our mobile app and create prototypes to test and iterate upon.</p>
+            </div>
+            <div id="item-4-1">
+              <h5>User Flow</h5>
+              <p>Our first drawing of our user flow takes users from the signup process through all the main features: 
+                Sign up, searching recipes, adding ingredients to pantry, creating a shopping list,
+                and planning out meals.</p>
+                <a href="../cuesine/assets/images/flow1.jpg" data-toggle="lightbox"><img src="../cuesine/assets/images/flow1.jpg" class="figure-image img-fluid border rounded slideimage"></a> <br>
+            </div>
+            <div id="item-4-2">
+              <h5>Sketches</h5>
+              <p>Based off this user flow, I sketched out wireframes for screens needed for the main features.<br>
+                For the filters screen, I anticipated that the most important criteria would be preptime and cooktime, since our users indicated time as a constraint. These were placed at the top.<br>
+                For the meal plan screen, I used the existing pattern of a weekly calendar view i.e. the default iPhone Calendar app, something that users would be familiar with, in order to decrease their cognitive load.
+              </p>
+              <img src="../cuesine/assets/images/sketches.png" class="figure-image img-fluid border rounded slideimage"><br>
+            </div>
+            <div id="item-4-3">
+              <h5>Digital Wireframes</h5>
+              <img src="../cuesine/assets/images/wireframes.png" class="figure-image img-fluid border rounded slideimage"><br>
+            </div>
+            <div id="item-4-4">
+              <h5>Lo-fi Prototype</h5>
+              <p>We made slight changes from our digital wireframes to lo-fi prototypes based on notes of our competitors' interfaces and user feedback, such as making sure each element had an appropriate size to be a viable touch target on mobile screens.</p>
+              <img src="../cuesine/assets/images/lofi.png" class="figure-image img-fluid border rounded slideimage"><br>
+            </div>
+            <div id="item-4-5">
+              <h5>Usability Testing and Iterations</h5>
+              <p>
+                We then took our lo-fi prototype to conduct usability tests.
+                The tasks we wanted to test were:
+                <ol>
+                  <li>Successfully create an account.</li>
+                  <li>Successfully add ingredients to their digital pantry.</li>
+                  <li>Sucessfully choose a recipe using filters.</li>
+                </ol>
+                We compiled all the insights gained through the usability tests onto a matrix indicating the complexity and the impact/priority of how we could address the issue in our design, and then categorized them.
+              </p>
+              <img src="../cuesine/assets/images/testingdata.jpg" class="figure-image img-fluid border rounded slideimage"><br>
+              <p>We would fix most of the small visual issues in the transition to Mid-Fi, however, there were a few issues that were of relatively high priority:
+                <li>The Home page was not readable as the page where users can find recipes.</li>
+                <li>The path from the Pantry page to the Home page was unclear.</li>
+                <li>It should be more easily to keep track of what ingredients are used in each part of the recipe.</li>
+                </p>
+              <p>Based on the results, we made the following iterations to the prototype:</p>
+              <div class="card border-0 prototypecard">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img src="../cuesine/assets/images/coach.gif" class="card-img" alt="Coaching screens">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body border-0">
+                      <h5 class="card-title">Coaching screens provide clues</h5>
+                      <p class="card-text">Easy to understand graphics, appearing before the user signs up, prime the users on the app's features. <br><br>
+                      Additionally, changing our "Home" page to "Discover" with a magnifying glass icon signifying searching for recipes, made it readable as the page where users can find recipes.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card border-0 prototypecard">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img src="../cuesine/assets/images/overlays.gif" class="card-img" alt="Overlays">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body border-0">
+                      <h5 class="card-title">Overlays guide users through the app's features</h5>
+                      <p class="card-text">Pop-up overlays appear when the user attempts to enable the pantry, guiding them to the Pantry screen.
+                        Once they've added their ingredients, they are guided back to the Discover screen to see what recipes they can make with the ingredients they have in their pantry.
+                      </p>
+                    </div>
+                  </div>
+              </div>
+              </div>
+              <div class="card border-0 prototypecard">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img src="../cuesine/assets/images/recipes.gif" class="card-img" alt="Recipe screens">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body border-0">
+                      <h5 class="card-title">Ingredients clearly highlighted</h5>
+                      <p class="card-text">We initially <b>bolded</b> the ingredients within the text of the recipe. We now placed them at the bottom section of each step in the recipe to further improve readability.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p>We also updated the user flow to reflect the iteration we made with our overlays guiding the user.</p>
+              <a href="../cuesine/assets/images/flow2.png" data-toggle="lightbox"><img src="../cuesine/assets/images/flow2.png" class="figure-image img-fluid border rounded slideimage"></a> <br>
+            </div>
+            <div id="item-4-6">
+              <h5>Mid-Fi Prototype</h5>
+              <img src="../cuesine/assets/images/midfi.png" class="figure-image img-fluid border rounded slideimage"><br>
+              <a href="https://www.figma.com/proto/8W3bBr9DoMkNP7twU8d636/Cuesine?page-id=299%3A1089&node-id=375-978&node-type=canvas&viewport=96%2C282%2C0.26&t=lJWCkngbKKSkbr4r-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=375%3A978" target="_blank" class="button-link"><button type="button" class="btn btn-primary btn-lg prototypebutton">View Our Prototype</button></a>
+            </div>
+          </section>
+          <section id="section-5" class="mt-5">
+            <div id="item-5"><h4>Hi-Fi Prototyping</h4>
+            <div id="item-5-1">
+              <h5>Hi-Fi Mockup</h5>
+              <p>We did not finish a high fidelity prototype within the working period. However, I created some screens of what a hi-fidelity prototype would look like with color images and the implementation of the green accent color from our logo.</p>
+            <img src="../cuesine/assets/images/hifi.png" class="figure-image img-fluid border rounded slideimage"><br>
+            <p>Additionally, here are the explorations I created for the branding and logo design of Cuesine.</p>
+            <figure><img src="../cuesine/assets/images/logo.png" class="figure-image img-fluid border rounded slideimage"></figure>
+            <figcaption class="figure-caption text-center">The logo draws inspiration from plates, cue balls, green lights, giving one the cue to cook.</figcaption>
+          </div>
+          </div>
+          </section>
+          <section id="section-6" class="mt-5 mb-5">
+            <div id="item-6">
+              <h4>Conclusion</h4>
+              <p>This was our first group project, so we practiced team communication and division of tasks. 
+              We also learned a lot about working from a broad idea to paring down to a few key features based on our user research, as well as controlling our scope
+              and being realistic about what we could accomplish within a limited timeframe given many features that would be nice to have.</p>
+              <p>Our next steps would be to fully build out the hi-fidelity prototype, as well as to test and iterate upon it. 
+                In the future, we would like to build out the bookmarking feature (hinted at with the heart icon on each recipe card) and add more features such as a shopping list, custom recipes, and community features.</p><br>
+            <hr style="width:50%; margin:auto">
+          </div>
+          </section>
+        </div>
+        <div id="bottom-spacer" style="height: 30vh;"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <!-- THE BELOW SCRIPT TAGS ARE REQUIRED FOR CERTAIN COMPONENTS IN BOOTSTRAP -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="../cuesine/scripts/cuesine.js"></script>
+</body>
+
+</html>
