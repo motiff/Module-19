@@ -1,0 +1,126 @@
+body{  
+  overflow-x: unset;
+  font-family: Roboto, sans-serif;
+  display: flow-root;
+}
+.fill{
+  background-image: url("../assets/images/banner_hh.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left 10% bottom 40%;
+  min-height: 70vh;
+  height: 70vh;
+  position: relative;
+}
+.introSection{
+  justify-content: center;
+  height: fit-content;
+  width: 100%;
+  margin-bottom: 5%;
+}
+.title{
+  color: black;
+  position: absolute;
+  bottom: 120px;
+  right: 50px;
+  text-shadow: 1px 1px 4px darkgray;
+}
+.subtitle{
+  color: black;
+  position: absolute;
+  bottom: 80px;
+  right: 50px;
+  text-shadow: 1px 1px 4px darkgray;
+}
+.sidebar{
+  top: 40px;
+}
+.nav-link{
+  color: black;
+  font-weight: bold;
+}
+.nav-link.active{
+  color: black !important;
+  text-decoration: underline;
+  background-color: white !important;
+}
+.nav-link:hover{
+  color:#6e64ff;
+}
+.sidecol{
+  display: unset;
+}
+.content-wrapper {
+  margin: 0 auto 0 auto;
+}
+h4{
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+h3{
+  font-size: 18px;
+  text-align: center;
+  font-style: italic;
+  padding: 5%;
+}
+.card-header-text{
+  margin: auto;
+  padding: 1%;
+  font-weight: 400;
+  font-size: 18px;
+}
+.slideimage{
+  max-width: 85%;
+  margin: auto;
+  display: block;
+}
+
+.gif-img{
+  max-width: 200px;
+}
+.blockquote{
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.blockquote-footer{
+  margin-top: auto;
+}
+.button-link{
+  text-decoration: none !important;
+}
+.prototypebutton{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-color: #6e64ff;
+  border: 2px solid #6e64ff !important;
+}
+.prototypebutton:hover{
+  background-color: white;
+  color: #6e64ff;
+  border: 2px solid #6e64ff !important;
+}
+.figure{
+  margin-bottom: 5px;
+}
+figcaption{
+  margin-bottom: 10px;
+}
+.subgroup-ul{
+  display: none;
+}
+.container-fluid{
+  padding: 0;
+}
+/* .lightbox-carousel > .carousel-inner > .carousel-item > .ratio{
+  background-color:#fff0 !important;
+} */
+/* hide sidebar */
+@media only screen and (max-width:1179px){
+  .sidebar{
+    visibility: hidden;
+  }
+}

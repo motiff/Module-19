@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Add Bootstrap CSS Here on line 10-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- This is REQUIRED for bootstrap to work correctly -->
+
+  <!-- This stylesheet is an example of how you can add your own stylesheet to customize bootstrap components. Notice how it is loaded 2nd to the required bootstrap stylesheet. This is so our stylesheet will overwrite bootstrap classes when we apply the same class but different styles to the stylsheet -->
+  <link rel="stylesheet" href="../harmonyhub/scripts/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+  <title>Case Study - HarmonyHub</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="false" tabindex="0" data-bs-threshold="0,1" data-bs-root-margin="-30% 0% -70%">
+  <!-- jumbotron -->
+  <div class="fill p-5 mb-4" id="jumbotron">
+    <div class="container-fluid py-5">
+      <h1 class="display-2 fw-bold text-end title">HarmonyHub</h1>
+      <h2 class="display-8 fw-bold text-end subtitle">A music collaborator matching app</h2>
+      <!-- <button class="btn btn-primary btn-lg" type="button">Example button</button> -->
+    </div>
+  </div>
+  <div class="container-fluid py-4">
+    <div class="row introSection">
+      <div class="container-sm col-2">
+        <h6>My Team</h6>
+        Leighton Heegaard<br>
+        Rubia Costa-Hermans<br>
+      </div>
+      <div class="container-sm col-2">
+        <h6>My Role</h6>
+        User Research<br>
+        User Research Synthesis<br>
+        UI/UX Prototyping<br>
+        UI/UX Prototype Testing<br>
+      </div>
+      <div class="container-sm col-2">
+        <h6>Timeline</h6>
+        November 10, 2023 -<br>
+        November 28, 2023<br>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- sidebar scrollspy -->
+  <div class="container-fluid px-3">
+    <div class="row">
+      <div class="col-2 sidecol">
+        <nav data-id="scrollspy-nav" id="navbar-example3 sidebar" class="sticky-toph-100 flex-column align-items-stretch pe-4 border-end sidebar sticky-top">
+          <nav class="nav nav-pills flex-column groupnav">
+            <a class="nav-link main-ul" href="#item-1">About</a>
+            <nav class="nav nav-pills flex-column subgroup-ul">
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-1-1">The Problem</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-1-2">The Goal</a>
+            </nav>
+          </nav>
+          <nav class="nav nav-pills flex-column groupnav">
+            <a class="nav-link main-ul" href="#item-2">User Research</a>
+            <nav class="nav nav-pills flex-column subgroup-ul">
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-2-1">Proto-Persona</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-2-2">User Survey</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-2-3">User Interviews</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-2-4">Empathy Map</a>
+            </nav>
+          </nav>
+          <nav class="nav nav-pills flex-column groupnav">
+            <a class="nav-link main-ul" href="#item-3">Definition & Ideation</a>
+            <nav class="nav nav-pills flex-column subgroup-ul">
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-3-1">Competitor Analysis</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-3-2">Feature Definition and Prioritization</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-3-3">User Journey</a>
+            </nav>
+          </nav>
+          <nav class="nav nav-pills flex-column groupnav">
+            <a class="nav-link main-ul" href="#item-4">Testing & Iterating</a>
+            <nav class="nav nav-pills flex-column subgroup-ul">
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-4-1">User Flow</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-4-2">Sketches</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-4-3">Lo-fi Prototype</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-4-4">Usability Testing and Iterations</a>
+          </nav>
+          </nav>
+          <nav class="nav nav-pills flex-column groupnav">
+            <a class="nav-link main-ul" href="#item-5">Hi-Fi Prototyping</a>
+            <nav class="nav nav-pills flex-column subgroup-ul">
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-5-1">UI Moodboard</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-5-2">Style Guide</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-5-3">A/B Testing</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-5-4">Hi-Fi Prototype</a>
+            </nav>
+          </nav>
+          <nav class="nav nav-pills flex-column groupnav">
+            <a class="nav-link main-ul" href="#item-6" id="conclusion">Conclusion</a>
+            <nav class="nav nav-pills flex-column subgroup-ul">
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-6-1"id="nextsteps">Next Steps</a>
+            </nav>
+          </nav>
+        </nav>
+      </div>
+      <div class="col-1"></div>
+      <div class="col-8 col-offset-3">
+        <div class="scrollspy-example content-wrapper">
+            <section id = "section-1">
+              <div id="item-1">
+              <h4>About</h4>
+              <p>The final group project of my UX/UI bootcamp involved researching, prototyping, and testing another idea for a brand-new mobile application that must solves a real, clearly identified need in users’ everyday lives. Each class member pitched our own ideas and we underwent a process of ranked voting for what project we would like to be on the team on. <br>My team member Leighton pitched an app for music artists to find collaborations with each other, based on her own interest in finding collaborations as a indie music artist. I resonated with this idea, as I am also an avid music listener who spends time in many online communities where I often encounter indie music artists who are promoting their own music, as well as looking for collaborations and feedback from fellow artists. 
+              </p>
+            </div>
+            <div id="item-1-1" class="mt-4">
+              <h5>The Problem</h5>
+                <p>Musicians struggle to find and effectively communicate with collaborators that share their creative vision.
+                </p>
+                <h3>"How might we help musicians discover and effectively connect with compatible collaborators?"</h3>
+            </div>
+            <div id="item-1-2" class="mt-4">
+              <h5>The Goal</h5>
+              <p>Deisgn a mobile app that addresses these issues through a new social networking app tailored specifically to the needs of musicians. Users would be empowered by our mobile app being able to:<br>
+                <ul>
+                  <li>
+                    Create a personal user profile showcasing their music, interests, goals for making music, roles, and preferred genres.
+                  </li>
+                  <li>
+                    Discover compatible collaborators that fit their roles and genre preferences, and get a good sense of who they are through their music, interests, and goals.
+                  </li>
+                  <li>
+                    Easily request to collaborate, share music, and communicate.
+                  </li>
+                </ul>
+              </p>
+            </div>
+            </section>
+            <section id="section-2" class="mt-5">
+              <div id="item-2" class="mt-4">
+              <h4>User Research</h4>
+              <p>
+                Before we started user research proper, we first designed a proto-persona describing our target user.
+              </p>
+              <div id="item-2-1" class="mt-4">
+                <h5>Proto-Persona</h5>
+                <p>Our proto-persona was based my team member, as well as friends who we knew produced music independently. We imagined a young person who is new to collaborating with other musicians. We also thought that despite using social media, this user finds it hard to find an audience and other musicians to collaborate with. <br><br>
+                  <a href="../harmonyhub/assets/images/protopersona.png" data-toggle="lightbox" class="lightbox"><img src ="../harmonyhub/assets/images/protopersona.png" class="img-fluid border rounded slideimage"></a>
+                </p>
+              </div>
+              
+              <div id="item-2-2" class="mt-4">
+                <h5>User Survey</h5>
+                <p>We conducted a user survey with 36 respondents, selecting for people who made music. We asked questions regarding their habits and behaviors (i.e. how they produced music, where they shared their music, how they found collaborations). This not only helped paint a picture of our target user, but also was valuable research for learning what music production entailed.<br> 
+                Some weaknesses in the data collection for this survey are that the respondents were selected by convenience, with a large amount of them contacted through Discord. This may cause an overrepresentation of users reporting Discord as their platform of choice for sharing music and/or finding collaborators, as well as reporting that they more often find collaborators online than in person.<br>
+                Despite this, we found several interesting data points:</p>
+                <figure><img src ="../harmonyhub/assets/images/survey1.png" class="figure-image img-fluid border rounded slideimage"></figure>
+                <figcaption class="figure-caption text-center">The vast majority of respondents either have already or want to collaborate with someone on music.</figcaption><br>
+
+                <figure><img src ="../harmonyhub/assets/images/survey2.png" class="figure-image img-fluid border rounded slideimage"></figure>
+                <figcaption class="figure-caption text-center">About as many people find and meet collaborators online as in person.</figcaption><br>
+
+                <figure><img src ="../harmonyhub/assets/images/survey3.png" class="figure-image img-fluid border rounded slideimage"></figure>
+                <figcaption class="figure-caption text-center">Of those who found a collaboration online, most use Instagram and Discord.</figcaption><br>
+
+              <p> We also got some interesting responses to open-ended questions. Here is a sample:</p>
+              <div class="card mb-3 mx-auto" style="max-width: 85%;">
+                <div class="card-header">
+                 <p class="card-header-text">If you used online platforms to meet a collaborator, what did you like or dislike about that online platform?</p>
+                </div>
+                <div class="card-body">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">"I disliked the difficulty of FINDING a person that aligns with you, but I loved the variety and diversity of people I found."</li>
+                    <li class="list-group-item">"No way to set calendar dates in TikTok because you can’t send links. I wish I could send a contact card and make a plan right away when that person is in the moment about the collab."</li>
+                    <li class="list-group-item">"I was only able to find people to collab with on Instagram through boosting my videos and specifically targeting my audience to musicians. So I would say that’s something I don’t like because I’m limited to doing that or else my videos probably wouldn’t be seen by other artists."</li>
+                  </ul>
+                </div>
+              </div>
+              <p>It was clear to us that there was an unmet user need for an effective way to find and communicate with music collaborators with current online platforms.</p>
+              <br>
+              </div>
+              <div id="item-2-3" class="mt-4">
+                <h5>User Interviews</h5>
+                <p>We conducted five one-on-one user interviews.
+                  Like the survey, we wanted an idea of their habits regarding music production, how they shared music, and how they looked for collaborators and/or commissions. <br>We also asked what people looked for in a potential collaborator, for example, what kinds of questions they would ask them to get an idea of whether or not they wanted to collaborate with them. These insights helped me to develop my idea of a feature that could help artists understand each other better.</p>
+                <p>We gathered all the insights we gained from our survey and interviews and arranged them into an affinity diagram, showing the common trends between them.</p>
+                <figure><a href="../harmonyhub/assets/images/interviewinsights_lg.jpg" data-toggle="lightbox" class="lightbox"><img src="../harmonyhub/assets/images/interviewinsights_sm.jpg" class="figure-image img-fluid border rounded slideimage"></a></figure>
+                <figcaption class="figure-caption text-center">Click to enlarge</figcaption>
+                <br>
+                <a href="../harmonyhub/assets/images/affinitydiagram.jpg" data-toggle="lightbox"><img src ="../harmonyhub/assets/images/affinitydiagram.jpg" class="figure-image img-fluid border rounded slideimage"></a><br>
+                <p> Our main takeaways:
+                  <ul>
+                    <li>Though many users have collaborated with another artist online before, many users have or want to collaborate in person. This means that sharing the location is important.</li>
+                    <li>Users want to hear another artists' music samples.</li>
+                    <li>A significant amount of users are involved in commissions.</li>
+                    <li>Users look for various qualities in a potential collaborator, such as someone with different strengths or abilities to them, or a similar vision or genre to them. <b>Importantly, they want to know the goals of the other person and if they align with their own goals.</b></li>
+                  </ul>
+                </p>
+                <br>
+              </div>
+              <div id="item-2-4" class="mt-4">
+                <h5>Empathy Map</h5>
+                <p>We then created an empathy map that synthesized what we learned from our user research. It summarizes what our users say, think, feel, and do, their pains (obstacles, frustrations) and gains (motivations, potential successes).</p>
+                <a href="../harmonyhub/assets/images/empathymap.jpg" data-toggle="lightbox"><img src ="../harmonyhub/assets/images/empathymap.jpg" class="figure-image img-fluid border rounded mx-auto d-block" style="max-width: 85%;"></a><br>
+              </div>
+            </section>
+          <section id="section-3 item-3" class="mt-5">
+            <div id="item-3" class="mt-4">
+              <h4>Definition & Ideation</h4>
+              <p>With an idea of what users need, we started to explore the possible features our app needed to address them.</p>
+            </div>
+            <div id="item-3-1" class="mt-4">
+              <h5>Competitor Analysis</h5>
+              <p>We tried to find direct competitors when it came to online platforms expressly built for music collaborators to find each other, as opposed to the general social media platforms that our userbase more popularly already use. We found the platforms <a href="
+                https://www.el3mentapp.com/">el3ment</a> and <a href="https://www.beatstars.com/">BeatStars</a>. For indirect competitors, we looked at the messaging app Discord and the dating app <a href="https://hinge.co/">Hinge</a>.</p>
+                <img src="../harmonyhub/assets/images/comp.png" class="figure-image img-fluid border rounded slideimage"><br>
+                <p>
+                  <b>BeatStars</b> is a "digital production marketplace" where artists and producers collaborate, license, and distribute their work. We liked that users can easily upload their music and have control of their own licensing terms and revenue splits. It would be a great place to start basing a system of commissions for our app around. However, because it is so focused on buying and selling, it may not be best for finding collaborations for artists who have different goals, aren't as business focused, or don't have a beat ready. One also does not get a good sense of the other artist from their user profiles.<br>
+                </p>
+                <p>
+                  <b>el3ment</b> is a social networking app for "music makers to connect and collaborate." Its strengths include search filters by location, role, genre, or instrument, and a translation function that helps connect artists globally. It is extremely close to what we were envisioning, but there is still room for improvement based on our user research. Although the majority of users wanted to listen to music samples and know the other artists' roles, as el3ment's user profiles provide, they are also looking for certain qualities in a potential collaborator.
+                  <br>
+                </p>
+                <p>
+                  <b>Discord</b> as a messaging app is not expressly built for music artists. However, there are communities within Discord, such as the Kenny Beats server, that center around music production. There are channels to promote your work, ask questions, recieve feedback, and ask for collaborations. Its main strength is that it is a cohesive community, in this case formed around Kenny Beats, a producer. The community generally has a shared understanding of the genres he usually works in, as well as participates in community events and livestreams of his. This would be a great place to look for ideas on how to foster a community of artists.
+                </p>
+                <p>
+                  Even though <b>Hinge</b> is a dating app, we studied it as an example of a online social platform where people get to know and message each other. We loved the Prompts feature, which are conversation starter questions. A model of how users can understand the other persons' goals is found in the "dating intentions" part of the profile. Additionally, there is a ghosting countermeasure in the "Your Turn" feature that reminds a user to continue a conversation, and the "We Met" feature allows users to privately confirm that they have at least had a first date with a particular match.
+                </p>
+                <p>
+                  We recognized the need for a comprehensive solution to our users' needs that involved synthesizing the strengths of these apps and improving upon them with insights from our user research.
+                </p>
+                <br>
+            </div>
+            <div id="item-3-2" class="mt-4">
+              <h5>Feature Definition and Prioritization</h5>
+              <p>We then began define and organize ideas for features based on their feasibility and originality.</p>
+              <a href="../harmonyhub/assets/images/ilike.jpg" data-toggle="lightbox" class="lightbox"><img src="../harmonyhub/assets/images/ilike.jpg" class="figure-image img-fluid border rounded slideimage"></a> <br>
+              <a href="../harmonyhub/assets/images/featurematrix.jpg" data-toggle="lightbox" class="lightbox"><img src="../harmonyhub/assets/images/featurematrix.jpg" class="figure-image img-fluid border rounded slideimage"></a> <br>
+                <p>We prioritized the features that were both feasible to complete for a MVP and would fulfill the users' needs, while also making note of more original ideas that would be nice to have.
+                </p>
+                <ul>
+                  <li><b>Our key features in the “Now” portion: </b>personal user profiles with music samples, skills, goals, interests, and location; a way to communicate with other artists</li>
+                  <li><b>More complex features near the “Wow!” section:</b> commission feature, scheduling feature, shared community features, ways to give and ask for feedback, AI suggestion algorithms.</li>
+                  <li><b>Interesting “How?” ideas:</b> Adding other roles that surround music making such as visual artist, DJ, and event booking; integration with DAWs and file sharing services</li>
+                </ul>
+                <p>We once previously considered a collaborative DAW and file sharing as part of the application in earlier stages of ideation, but our user research shifted our focus to what was missing from the current social networking between music artists.</p>
+                <br>
+
+            </div>
+            <div id="item-3-3" class="mt-4">
+              <h5>User Journey</h5>
+              <a href="../harmonyhub/assets/images/userjourney.png" data-toggle="lightbox" class="lightbox"><img src="../harmonyhub/assets/images/userjourney.png" class="figure-image img-fluid border rounded mx-auto d-block slideimage"></a><br>
+              <p>We created a user journey of our user persona, Sarah. We identified points of oppurtunity in the user journey at the discover,  viewing profile details, request to collaborate, and communicating steps to simplify the UI.<br>
+                <br>
+              </p>
+            </div>
+          </section>
+
+          <section id="section-4" class="mt-5">
+            <div id="item-4" class="mt-4">
+              <h4>Testing & Iterating</h4>
+              <p>With our plans for features, we then began to visualize our mobile app and create prototypes to test and iterate upon.</p>
+            </div>
+            <div id="item-4-1" class="mt-4">
+              <h5>User Flow</h5>
+              <p>In our proposed user flow, takes users from the sign up process to building a profile, going to the Discovery page to browse artists, finding the profile of a potential collaborator, following them, and sending them a request to collaborate.</p>
+              <a href="../harmonyhub/assets/images/userflow.jpg" data-toggle="lightbox" class="lightbox"><img src="../harmonyhub/assets/images/userflow.jpg" class="figure-image img-fluid border rounded mx-auto d-block slideimage"></a> <br>
+            </div>
+            <div id="item-4-2" class="mt-4">
+              <h5>Sketches</h5>
+              <p>Based off this user flow, we all sketched out wireframes for screens. Remarkably, our sketches all looked similar to each other. We used familiar design patterns from other apps that had selectable tags and user profiles.
+              </p>
+              <img src="../harmonyhub/assets/images/sketches.png" class="figure-image img-fluid border rounded slideimage"><br>
+            </div>
+            <div id="item-4-3" class="mt-4">
+              <h5>Lo-fi Prototype</h5>
+              <p>We moved from our sketches to an intermediary between a digital wireframe and a lo-fi prototype, so we could begin testing and iterating upon it faster.</p>
+              <img src="../harmonyhub/assets/images/lofi.png" class="figure-image img-fluid border rounded slideimage"><br>
+            </div>
+            <div id="item-4-4" class="mt-4">
+              <h5>Usability Testing and Iterations</h5>
+              <p>
+                We then took our lo-fi prototype to conduct usability tests.
+                We tested on the following tasks and the steps needed to accomplish them:
+                <ol>
+                  <li><b>Successfully create an account.</b></li>
+                    <ol>
+                      <li>Enter email and password on the sign up screen.</li>
+                      <li>Tap "Sign Up"</li>
+                      <li>Interact and fill out the fields on the Create Profile page.</li>
+                      <li>Click "Save Profile" to proceed to the completed profile.</li>
+                    </ol>
+                    <br>
+                  <li><b>Successfully request to collaborate with another artist.</b>
+                    <ol>
+                      <li>Navigate to the Home page using the bottom navigation bar.</li>
+                      <li>Tap Karol's card.</li>
+                      <li>View Karol's profile.</li>
+                      <li>Tap "Request" to request to collaborate.</li>
+                      <li>User sends a message request.</li>
+                    </ol>
+                  </li>
+                </ol>
+                <br>
+              </p>
+              <img src="../harmonyhub/assets/images/testingdata.png" class="figure-image img-fluid border rounded slideimage"><br>
+              <p>Our testing results showed a good success rate on both tasks. Our users stated that it was "very easy to request for collboration," and "overall very intuitive." We would fix most of the small navigation consistency issues in the transition to Hi-Fi, though one user did note that the "design of tag selection process was unclear." Based on this, we made iterations to the prototype:</p>
+              <img src="../harmonyhub/assets/images/iteration.png" class="figure-image img-fluid border rounded mx-auto d-block" style="max-width: 60%;"><br>
+              <p>We increased the font size of the title of the tag section, and added a subtitle instructing the user that they could select one or more tags. We also changed the design of the tags to have a symbol to signify adding and canceling and bold text when selected.</p>
+          </section>
+
+          <section id="section-5" class="mt-5">
+            <div id="item-5" class="mt-4">
+              <h4>Hi-Fi Prototyping</h4>
+            </div>
+            
+            <div id="item-5-1" class="mt-4">
+              <h5>UI Moodboard</h5>
+              <img src="../harmonyhub/assets/images/uiinspo.png" class="figure-image img-fluid border rounded slideimage"><br>
+              <p>Here are some inspirations for our UI drawn from music apps and others. We liked color palettes that included purple, which is more calm than red and more exciting than blue, especially in pastel shades that pop against black and white. We also liked the buttons and icons with simple thin black borders.
+              </p>
+            </div>
+
+            <div id="item-5-2" class="mt-4">
+              <h5>Style Guide</h5>
+              <a href="../harmonyhub/assets/images/styleguide.png" data-toggle="lightbox" class="lightbox"><img src="../harmonyhub/assets/images/styleguide.png" class="figure-image img-fluid border rounded slideimage"></a><br>
+              <p>In our style guide, you can see us explore a dark mode version of our colors with light shades of teal with a black background. I came up with the initial design of the logo from two beamed pairs of eighth notes for the H initials.</p>
+              <br>
+            </div>
+
+            <div id="item-5-3" class="mt-4">
+              <h5>A/B Testing</h5>
+              <img src="../harmonyhub/assets/images/abtesting.png" class="figure-image img-fluid border rounded slideimage"> <br>
+              <p>We conducted A/B testing to help us make some visual decisions for our hi-fi protoype. Here is some of the feedback we recieved regarding the kind of visual decoration direction we could have for these screens:
+              <ul>
+                <li>"Of these C looks more inviting! Love the illustration!"</li>
+                <li>"I like A, but a different screen can have the illustrations."</li>
+                <li>"I like C but think illustrations don’t need to be on both pages especially if there were to be a long list like in B."</li>
+              </ul>
+              In the end, we ended up with a design closest to B, but with images instead of illustrations to continue consistency with the rest of the app's design, and to still provide some visual differentiation between different screens for different steps of the profile building process.
+               </p>
+              <br>
+            </div>
+
+            <div id="item-5-4" class="mt-4 mb-4">
+              <h5>Hi-Fi Prototype</h5>
+              <p></p>
+              <div class="d-flex flex-row justify-content-center mb-4">
+                <img src="../harmonyhub/assets/images/hifi1.gif" class="figure-image img-fluid gif-img">
+                <img src="../harmonyhub/assets/images/hifi2.gif" class="figure-image img-fluid  gif-img">
+                <img src="../harmonyhub/assets/images/hifi3.gif" class="figure-image img-fluid gif-img">
+              </div>
+              <a href="https://www.figma.com/proto/eJwDf8DqLXewGfGfwm1zoy/Harmony-Hub?page-id=27%3A23&type=design&node-id=169-649&viewport=-2135%2C941%2C0.61&t=221rjdNUwi6BkTe8-1&scaling=scale-down&starting-point-node-id=169%3A649" target="_blank" class="button-link"><button class="btn btn-primary btn-lg prototypebutton">View Our Prototype</button></a>
+            </div>
+          </section>
+          <section id="section-6" class="mt-5 mb-5">
+            <div id="item-6" class="mt-4">
+              <h4>Conclusion</h4>
+              <p>I thoroughly enjoyed putting this project together, especially conducting the user research, because it was such a great idea and it related to my interests, my friends' interests, and the online communities we all were part of. We got to learn a lot about music production, which was fun hearing about from people who we did not know much about their hobbies before.</p>
+              <p>We had a smaller team and a limited timeframe, so our lo-fi was a intermediary between a digital wireframe and a low-fidelity prototype, and immediately iterated upon that to a hi-fidelity prototype. We were fortunate to have a closely aligned understanding for what the app could look like during our sketching, owing to our design inspirations and our experience over the course of the bootcamp. We also learned to make a to-do list of the specific screens we needed to prioritize for our MVP. Though building this quickly helped keep up with our schedule, we could have benefited from going through each step of the prototyping process through more consideration and refinement of our design concepts.</p>
+              </div>
+              <div id="item-6-1" class="mt-4 mb-5">
+              <h5>Next Steps</h5>
+              <p>Our next steps would be to further build out, test, and iterate upon the hi-fidelity prototype with our original ideas, such as search filters, a system for taking commissions, and making connections between artists with likes and follows. We would also like to add a dark mode.<br><br> 
+              There is a lot of room for growth, as we want to add features we ideated such as a community hub, more discovery engines like playlists, and scheduling and engagement features to the messaging function. These would fulfill more of our users' needs for a friendly community of artists, for more ways to discover collaborators, and for effective communication with their collaborators.
+              </p><br>
+              <hr style="width:50%; margin:auto">
+            </div>
+          </section>
+          <div id="bottom-spacer" style="height: 30vh;"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <!-- THE BELOW SCRIPT TAGS ARE REQUIRED FOR CERTAIN COMPONENTS IN BOOTSTRAP -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="../harmonyhub/scripts/index.js"></script>
+</body>
+
+</html>
