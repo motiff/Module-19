@@ -33,7 +33,7 @@ body{
   text-shadow: 1px 1px 4px darkgray;
 }
 .sidebar{
-  top: 40px;
+  top: 80px;
 }
 .nav-link{
   color: black;
@@ -114,6 +114,30 @@ figcaption{
 }
 .container-fluid{
   padding: 0;
+}
+.btn-floating {
+  z-index: 3;
+  background-color: white;
+  border: 2px solid #dddddd;
+  border-radius: 0;
+  position: fixed;
+  font-weight: normal;
+}
+.btn-floating:hover{
+  background-color: white;
+  border: 2px solid #dddddd;
+  border-radius: 0;
+  text-decoration: underline;
+  color: black !important;
+}
+#btn-back-to-top{
+  display: none;
+  bottom: 20px;
+  right: 20px;
+}
+#btn-back{
+  top: 20px;
+  left: 20px;
 }
 /* .lightbox-carousel > .carousel-inner > .carousel-item > .ratio{
   background-color:#fff0 !important;

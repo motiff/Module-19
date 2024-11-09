@@ -12,7 +12,7 @@
   <!-- This is REQUIRED for bootstrap to work correctly -->
 
   <!-- This stylesheet is an example of how you can add your own stylesheet to customize bootstrap components. Notice how it is loaded 2nd to the required bootstrap stylesheet. This is so our stylesheet will overwrite bootstrap classes when we apply the same class but different styles to the stylsheet -->
-  <link rel="stylesheet" href="../harmonyhub/scripts/index.css">
+  <link rel="stylesheet" href="../harmonyhub/scripts/harmonyhub.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -23,6 +23,16 @@
 </head>
 
 <body data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="false" tabindex="0" data-bs-threshold="0,1" data-bs-root-margin="-30% 0% -70%">
+    <!-- Back to top button -->
+    <button type="button" class="btn btn-floating btn-lg" id="btn-back-to-top">
+      ↑ to top
+    </button>
+    <!-- Back to top button -->
+    <a href="/">
+      <button type="button" class="btn btn-floating btn-lg" id="btn-back">
+         ⮌ back
+      </button>
+  </a>
   <!-- jumbotron -->
   <div class="fill p-5 mb-4" id="jumbotron">
     <div class="container-fluid py-5">
@@ -59,7 +69,7 @@
       <div class="col-2 sidecol">
         <nav data-id="scrollspy-nav" id="navbar-example3 sidebar" class="sticky-toph-100 flex-column align-items-stretch pe-4 border-end sidebar sticky-top">
           <nav class="nav nav-pills flex-column groupnav">
-            <a class="nav-link main-ul" href="#item-1">About</a>
+            <a class="nav-link main-ul" href="#item-1">Overview</a>
             <nav class="nav nav-pills flex-column subgroup-ul">
               <a class="nav-link ms-3 my-1 sub-ul" href="#item-1-1">The Problem</a>
               <a class="nav-link ms-3 my-1 sub-ul" href="#item-1-2">The Goal</a>
@@ -87,7 +97,7 @@
             <nav class="nav nav-pills flex-column subgroup-ul">
               <a class="nav-link ms-3 my-1 sub-ul" href="#item-4-1">User Flow</a>
               <a class="nav-link ms-3 my-1 sub-ul" href="#item-4-2">Sketches</a>
-              <a class="nav-link ms-3 my-1 sub-ul" href="#item-4-3">Lo-fi Prototype</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-4-3">Lo-Fi Prototype</a>
               <a class="nav-link ms-3 my-1 sub-ul" href="#item-4-4">Usability Testing and Iterations</a>
           </nav>
           </nav>
@@ -113,8 +123,8 @@
         <div class="scrollspy-example content-wrapper">
             <section id = "section-1">
               <div id="item-1">
-              <h4>About</h4>
-              <p>The final group project of my UX/UI bootcamp involved researching, prototyping, and testing another idea for a brand-new mobile application that must solves a real, clearly identified need in users’ everyday lives. Each class member pitched our own ideas and we underwent a process of ranked voting for what project we would like to be on the team on. <br>My team member Leighton pitched an app for music artists to find collaborations with each other, based on her own interest in finding collaborations as a indie music artist. I resonated with this idea, as I am also an avid music listener who spends time in many online communities where I often encounter indie music artists who are promoting their own music, as well as looking for collaborations and feedback from fellow artists. 
+              <h4>Overview</h4>
+              <p>The final group project of my UX/UI bootcamp involved researching, prototyping, and testing another idea for a brand-new mobile application that must solves a real, clearly identified need in users’ everyday lives. <br>My team member Leighton pitched an app for music artists to find collaborations, based on her own interest as a indie music artist. I am also an avid music listener who spends time in many online communities where I encounter indie music artists promoting their music, as well as looking for collaborations and feedback from fellow artists. 
               </p>
             </div>
             <div id="item-1-1" class="mt-4">
@@ -125,7 +135,7 @@
             </div>
             <div id="item-1-2" class="mt-4">
               <h5>The Goal</h5>
-              <p>Deisgn a mobile app that addresses these issues through a new social networking app tailored specifically to the needs of musicians. Users would be empowered by our mobile app being able to:<br>
+              <p>Design a mobile app that addresses these issues through a new social networking app tailored specifically to the needs of musicians. Users would be empowered by our mobile app being able to:<br>
                 <ul>
                   <li>
                     Create a personal user profile showcasing their music, interests, goals for making music, roles, and preferred genres.
@@ -136,7 +146,8 @@
                   <li>
                     Easily request to collaborate, share music, and communicate.
                   </li>
-                </ul>
+                </ul><br>
+                <a href="https://www.figma.com/proto/eJwDf8DqLXewGfGfwm1zoy/Harmony-Hub?page-id=27%3A23&type=design&node-id=169-649&viewport=-2135%2C941%2C0.61&t=221rjdNUwi6BkTe8-1&scaling=scale-down&starting-point-node-id=169%3A649" target="_blank" class="button-link"><button class="btn btn-primary btn-lg prototypebutton">View Our Prototype</button></a>
               </p>
             </div>
             </section>
@@ -278,7 +289,7 @@
               <img src="../harmonyhub/assets/images/sketches.png" class="figure-image img-fluid border rounded slideimage"><br>
             </div>
             <div id="item-4-3" class="mt-4">
-              <h5>Lo-fi Prototype</h5>
+              <h5>Lo-Fi Prototype</h5>
               <p>We moved from our sketches to an intermediary between a digital wireframe and a lo-fi prototype, so we could begin testing and iterating upon it faster.</p>
               <img src="../harmonyhub/assets/images/lofi.png" class="figure-image img-fluid border rounded slideimage"><br>
             </div>
@@ -390,7 +401,7 @@
     crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-  <script src="../harmonyhub/scripts/index.js"></script>
+  <script src="../harmonyhub/scripts/harmonyhub.js"></script>
 </body>
 
 </html>

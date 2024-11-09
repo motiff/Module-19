@@ -11,7 +11,7 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <!-- This is REQUIRED for bootstrap to work correctly -->
 
-  <link rel="stylesheet" href="../dreamcenter/scripts/index.css">
+  <link rel="stylesheet" href="../dreamcenter/scripts/dreamcenter.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -22,6 +22,16 @@
 </head>
 
 <body>
+  <!-- Back to top button -->
+  <button type="button" class="btn btn-floating btn-lg" id="btn-back-to-top">
+    ↑ to top
+  </button>
+  <!-- Back to top button -->
+  <a href="/">
+    <button type="button" class="btn btn-floating btn-lg" id="btn-back">
+       ⮌ back
+    </button>
+</a>
   <!-- jumbotron -->
   <div class="fill p-5 mb-4 rounded-3" id="jumbotron">
     <div class="container-fluid py-5">
@@ -60,7 +70,7 @@
       <div class="col-2 sidecol">
         <nav id="navbar-example3 sidebar" class="sticky-toph-100 flex-column align-items-stretch pe-4 border-end sidebar sticky-top">
           <nav class="nav nav-pills flex-column groupnav">
-            <a class="nav-link main-ul" href="#item-1">About</a>
+            <a class="nav-link main-ul" href="#item-1">Overview</a>
             <nav class="nav nav-pills flex-column subgroup-ul">
               <a class="nav-link ms-3 my-1 sub-ul" href="#item-1-1">The Problem</a>
               <a class="nav-link ms-3 my-1 sub-ul" href="#item-1-2">The Goal</a>
@@ -115,7 +125,7 @@
           class="scrollspy-example" tabindex="0">
             <section id = "section-1">
               <div id="item-1">
-              <h4>About</h4>
+              <h4>Overview</h4>
               <p><a href="https://dreamcenter.org">Dream Center</a> is a Los Angeles-based nonprofit organization dedicated to aiding
                 populations impacted by homelessness, hunger and the lack of education in Los Angeles through residential
                 and community outreach programs.
@@ -370,7 +380,7 @@
     crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-  <script src="../dreamcenter/scripts/index.js"></script>
+  <script src="../dreamcenter/scripts/dreamcenter.js"></script>
 </body>
 
 </html>

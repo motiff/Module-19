@@ -13,6 +13,7 @@
 
   <!-- This stylesheet is an example of how you can add your own stylesheet to customize bootstrap components. Notice how it is loaded 2nd to the required bootstrap stylesheet. This is so our stylesheet will overwrite bootstrap classes when we apply the same class but different styles to the stylsheet -->
   <link rel="stylesheet" href="../cuesine/scripts/cuesine.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -23,6 +24,16 @@
 </head>
 
 <body>
+  <!-- Back to top button -->
+  <button type="button" class="btn btn-floating btn-lg" id="btn-back-to-top">
+    ↑ to top
+  </button>
+  <!-- Back to top button -->
+  <a href="/">
+    <button type="button" class="btn btn-floating btn-lg" id="btn-back">
+       ⮌ back
+    </button>
+</a>
   <!-- jumbotron -->
   <div class="fill p-5 mb-4" id="jumbotron">
     <div class="container-fluid py-5">
@@ -53,14 +64,14 @@
       </div>
     </div>
   </div>
-  </div>
+  
   <!-- sidebar scrollspy -->
   <div class="container-fluid px-3">
     <div class="row">
       <div class="col-2 sidecol">
         <nav id="navbar-example3 sidebar" class="sticky-toph-100 flex-column align-items-stretch pe-4 border-end sidebar sticky-top">
           <nav class="nav nav-pills flex-column groupnav">
-            <a class="nav-link main-ul" href="#item-1">About</a>
+            <a class="nav-link main-ul" href="#item-1">Overview</a>
             <nav class="nav nav-pills flex-column subgroup-ul">
               <a class="nav-link ms-3 my-1 sub-ul" href="#item-1-1">The Problem</a>
               <a class="nav-link ms-3 my-1 sub-ul" href="#item-1-2">The Goal</a>
@@ -89,7 +100,7 @@
               <a class="nav-link ms-3 my-1 sub-ul" href="#item-4-1">User Flow</a>
               <a class="nav-link ms-3 my-1 sub-ul" href="#item-4-2">Sketches</a>
               <a class="nav-link ms-3 my-1 sub-ul" href="#item-4-3">Digital Wireframes</a>
-              <a class="nav-link ms-3 my-1 sub-ul" href="#item-4-4">Lo-fi Prototype</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-4-4">Lo-Fi Prototype</a>
               <a class="nav-link ms-3 my-1 sub-ul" href="#item-4-5">Usability Testing and Iterations</a>
               <a class="nav-link ms-3 my-1 sub-ul" href="#item-4-6">Mid-Fi Prototype</a>
             </nav>
@@ -111,9 +122,9 @@
           class="scrollspy-example" tabindex="0">
             <section id = "section-1">
               <div id="item-1">
-              <h4>About</h4>
-              <p>For my first group project in UI/UX, our job was to research, prototype, test, and validate an idea for a brand-new mobile application. Our apps must solve a real, clearly identified need in users’ everyday lives.
-                Out of many ideas our group generated for a mobile app, we all identified with the need to decide what to eat everyday.
+              <h4>Overview</h4>
+              <p>For my first group project in UI/UX, our job was to research, prototype, test, and validate an idea for a brand-new mobile application. Our apps must solve a real, clearly identified need in users’ everyday lives.<br>
+              Out of many ideas our group generated for a mobile app, we all identified with the need to decide what to eat everyday.
               </p>
             </div>
             <div id="item-1-1">
@@ -135,7 +146,8 @@
                   <li>
                     Plan their meals throughout the week, saving time that would have been used making decisions in the moment.
                   </li>
-                </ul>
+                </ul><br>
+                <a href="https://www.figma.com/proto/8W3bBr9DoMkNP7twU8d636/Cuesine?page-id=299%3A1089&node-id=375-978&node-type=canvas&viewport=96%2C282%2C0.26&t=lJWCkngbKKSkbr4r-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=375%3A978" target="_blank" class="button-link"><button type="button" class="btn btn-primary btn-lg prototypebutton">View Our Prototype</button></a>
               </p>
             </div>
             </section>
@@ -265,7 +277,7 @@
               <img src="../cuesine/assets/images/wireframes.png" class="figure-image img-fluid border rounded slideimage"><br>
             </div>
             <div id="item-4-4">
-              <h5>Lo-fi Prototype</h5>
+              <h5>Lo-Fi Prototype</h5>
               <p>We made slight changes from our digital wireframes to lo-fi prototypes based on notes of our competitors' interfaces and user feedback, such as making sure each element had an appropriate size to be a viable touch target on mobile screens.</p>
               <img src="../cuesine/assets/images/lofi.png" class="figure-image img-fluid border rounded slideimage"><br>
             </div>
