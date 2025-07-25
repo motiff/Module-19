@@ -10,14 +10,16 @@ h2{
   font-weight: 500;
 }
 h3{
-  margin:0;
+  margin: auto;
+  padding-bottom: auto;
   font-size: 48px;
   font-weight: 500;
 }
 h4{
   color: black;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: normal;
+  margin: auto;
 }
 h5{
   margin: auto;
@@ -35,35 +37,6 @@ body{
   font-family: Roboto, sans-serif;
 }
 
-.plus_minus {
-  font-size: 30px;
-  color: black;
-}
-
-.accordion{
-  margin-top: 50px;
-  margin-bottom: 5px;
-  display: flex;
-  justify-content: space-between; 
-  align-items: baseline;
-  transition: 0.4s;
-  border: 5px solid #dddddd;
-  padding: 20px;
-}
-
-
-.active, .accordion:hover {
-  background-color: #dddddd;
-}
-
-.panel {
-  padding: 0px;
-  background-color: white;
-  overflow: hidden;
-  max-height: 0;
-  transition: max-height 0.3s ease-in-out;
-}
-
 div {
   /* border: 1px solid; */
   margin: 0px;
@@ -77,24 +50,25 @@ div {
   padding: 0;
   margin-bottom: 100px;
 }
-.resumeButton {
-  background-color: white; /* Green */
-  border: 4px solid #dddddd;
-  color: black;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 18px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
+.innerContent{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
 }
-.resumeButton:hover {
-  background-color: #dddddd;
+.gdMainContent{
+  width: 60%;
+}
+.gdSideContent{
+  margin-top: 10px;
+  width: 40%;
+  padding-left: 25px;
+}
+#poster{
+  height: fit-content;
+  width: 100%;
 }
 p{
-  font-size: 24px;
+  font-size: 17px;
 }
 
 a:link{
@@ -110,9 +84,6 @@ a:visited{
 }
 .workTitle:hover{
   text-decoration: underline;
-}
-.wip{
-  cursor: not-allowed;
 }
 .contact{
   margin-top: 50px;
@@ -209,7 +180,7 @@ footer{
     justify-content: space-between;
     align-items: baseline;
     margin-top: 50px;
-    margin-bottom: 65px;
+    margin-bottom: 50px;
     height: fit-content;
   }
   /* .workImageContainer{
@@ -219,15 +190,6 @@ footer{
     background: #6e64ff;
   } */
   #workImage{
-    height: fit-content;
-    width: 100%;
-    object-fit: fill;
-    filter: grayscale(100%) brightness(125%);
-    opacity: 0.5;
-    transition: filter 0.5s ease-out, opacity 0.5s ease-out;
-  }
-
-  #wipworkImage{
     height: fit-content;
     width: 100%;
     object-fit: fill;
@@ -277,7 +239,7 @@ footer{
     height: 300px; 
     object-fit: cover;
     position: absolute;
-    top: 60px;
+    top: 40px;
     left: 20px;
   }
   .name{
@@ -286,7 +248,7 @@ footer{
     right: 0;
     bottom: 0;
     margin-right: 20px;
-    margin-bottom: 110px;
+    margin-bottom: 80px;
   }
   .occupation{
     position: absolute;
@@ -295,7 +257,7 @@ footer{
     right: 0;
     bottom: 0;
     margin-right: 20px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
   } 
   .content{
     margin-top: 40px;
@@ -309,7 +271,6 @@ footer{
     padding: 5px;
     position: fixed;
     overflow: hidden;
-    z-index: 7;
   }
   ul.navigationMenu{
     display: flex;
@@ -351,13 +312,6 @@ footer{
     height: fit-content;
     object-fit: fill;
   }
-  #wipworkImage{
-    width: 100%;
-    height: fit-content;
-    object-fit: fill;
-    filter: grayscale(100%) brightness(125%);
-    opacity: 0.5;
-  }
   /* .filter{
     height: fit-content;
     width: inherit;
@@ -386,32 +340,26 @@ footer{
     background-color: #6e64ff;
   }
   #portraitHeader{
-    position: absolute;
     width: 180px;
     height: 280px;
-    top: 60px;
     object-fit: cover;
     margin: 20px;
   }
   .name{
-    position: absolute;
     font-size: 72px;
-    bottom: 90px;
     right: 0;
+    bottom: 0;
     margin: 20px;
   }
   .occupation{
-    position: absolute;
     font-size: 48px;
     font-style: italic;
-    bottom: 50px;
     right: 0;
+    bottom: 0;
     margin: 20px;
   } 
   .content{
     margin-top: 40px;
-    padding-left: 10px;
-    padding-right: 10px;
   }
   .navigation{
     background-color: #6e64ff;
@@ -423,7 +371,6 @@ footer{
     padding: 5px;
     position: fixed;
     overflow: hidden;
-    z-index: 7;
   }
   ul.navigationMenu{
     display: flex;
@@ -446,13 +393,6 @@ footer{
     width: 100%;
     height: fit-content;
     object-fit: fill;
-  }
-  #wipworkImage{
-    width: 100%;
-    height: fit-content;
-    object-fit: fill;
-    filter: grayscale(100%) brightness(125%);
-    opacity: 0.5;
   }
 }
 
